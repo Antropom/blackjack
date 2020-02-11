@@ -160,6 +160,7 @@ while scoreB < 17:
 	mainBanque.append(piocher())
 	scoreB = scoreBanque(mainBanque)
 if scoreB > 21:
+	print()
 	print("La banque a ", mainB(), "pour un score total de ", scoreB, ", vous avez gagné !")
 	sys.exit()
 
